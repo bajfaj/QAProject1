@@ -24,6 +24,12 @@ namespace QAProject1.TraditionalSWD
 
             Driver.FindElement(By.XPath("//*[@id='new_session']/fieldset/div[4]/div[1]/div/input")).Click();
 
+            Driver.FindElement(By.XPath("/html/body/div[2]/ul[1]/li[1]/a/span")).Click();
+
+            Driver.FindElement(By.XPath("/html/body/div[2]/ul[1]/li[2]/a/span")).Click();
+
+            Driver.FindElement(By.XPath("/html/body/div[2]/ul[1]/li[3]/a/span")).Click();
+
             Driver.Quit();
         }
     }
